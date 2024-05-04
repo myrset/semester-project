@@ -16,6 +16,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="icon"
       type="image/png"
       sizes="32x32"
@@ -47,7 +51,7 @@
       <div class="quick-links">
         <ul class="index-buttons">
           <li class="index-button">Exhibitions</li>
-          <li class="index-button">Visit us</li>
+          <li class="index-button"><a href="#visitation">Visit us</a></li> 
           <li class="index-button">Information</li>
         </ul>
       </div>
@@ -61,12 +65,18 @@
           <br />
           <p>
             Come join us at the Community Science Museum where we’re committed
-            to making science accessible to all. Over the course of human
-            history, science has developed from our early understanding of fire,
-            wind, water, and earth to exploring everything from galaxies far
-            away to the very building blocks of life itself. The aim of our
-            museum is to create a space where everyone can experience the
-            wonders of our discoveries and perhaps even ignite a lifelong
+            to making science accessible to all.
+          </p>
+          <br />
+          <p>
+            Over the course of human history, science has developed from our
+            early understanding of fire, wind, water, and earth to exploring
+            everything from
+          </p>
+          <p>
+            galaxies far away to the very building blocks of life itself. The
+            aim of our museum is to create a space where everyone can experience
+            the wonders of our discoveries and perhaps even ignite a lifelong
             passion to continue the exploration of the world around us. We
             believe science should not be confined to the textbook, but brought
             to live through exhibits. This is why we have over 1000 different
@@ -77,41 +87,24 @@
           </p>
         </section>
       </div>
-      <div class="container">
-        <div class="visitation">
-          <section>
-            <h2>Visit us</h2>
-            <br />
-            <div>
+      <div class="container" id="visitation">
+        <div class="explore">
+          <div>
+            
+            <section class="visitation">
+            <div class="section-wrapper">
+                       
               <article>
                 <h3>Admission</h3>
                 <p>
                   The entrance is free for all. There are guided tours of the
-                  museum that leave every hour. These tours are 70 NOK per
-                  person and include a handy printed guide of the museum. If you
-                  would like to organise a guided tour for your group of 6 or
-                  more people, please contact us to arrange the tour.
+                  museum that leave every hour. 
+                  These tours are 70 NOK per person and include a handy printed
+                  guide of the museum. If you would like to organise a guided
+                  tour for your group of 6 or more people, please contact us to
+                  arrange the tour.
                 </p>
               </article>
-              <article>
-                <h3>Opening hours</h3>
-                <ul>
-                  <li>Monday: Closed</li>
-                  <li>Tuesday: 10:00 – 16:00</li>
-                  <li>Wednesday: 10:00 – 16:00</li>
-                  <li>Thursday: 10:00 – 16:00</li>
-                  <li>Friday: 10:00 – 19:00</li>
-                  <li>Saturday: 9:00 – 16:00</li>
-                  <li>Sunday: 9:00 – 13:00</li>
-                </ul>
-              </article>
-              <img
-                src="Images/scott-webb-102825.jpg"
-                alt=""
-                class="visitation-picture"
-              />
-            </div>
-            <div>
               <article>
                 <h3>Accessibility</h3>
                 <p>
@@ -121,6 +114,27 @@
                 </p>
               </article>
               <article>
+                <h3>Food and drink</h3>
+                <p>
+                  There is a café attached to the museum where you can get light
+                  lunches, soft drinks, coffee, snacks and more.
+                </p>
+              </article>
+            </div>
+            <div class="section-wrapper">
+              <article>
+                <h3>Opening hours</h3>
+                <ul class="hours">
+                  <li>Monday: Closed</li>
+                  <li>Tuesday: 10:00 – 16:00</li>
+                  <li>Wednesday: 10:00 – 16:00</li>
+                  <li>Thursday: 10:00 – 16:00</li>
+                  <li>Friday: 10:00 – 19:00</li>
+                  <li>Saturday: 9:00 – 16:00</li>
+                  <li>Sunday: 9:00 – 13:00</li>
+                </ul>
+              </article>
+              <article>
                 <h3>Shop</h3>
                 <p>
                   Our shop offers a range of memorabilia from the museum as well
@@ -128,24 +142,28 @@
                   to explore science even after you’ve left the museum.
                 </p>
               </article>
-              <article>
-                <h3>Food and drink</h3>
-                <p>
-                  There is a café attached to the museum where you can get light
-                  lunches, soft drinks, coffee, snacks and more.
-                </p>
-              </article>
+              
               <article>
                 <h3>Location</h3>
                 <p>The museum is located at somewhere strange</p>
+                
               </article>
             </div>
+              <img
+                src="Images/scott-webb-102825.jpg"
+                alt=""
+                class="visitation-picture"
+              />
+                       
+            
           </section>
         </div>
       </div>
     </main>
     <footer>
       <div>
+        <div><a href="document.html">Terms and conditions</a></div>
+      <div>        
         <h4>Subscribe to our newsletter</h4>
         <div>
           <input type="text" placeholder="Email address" name="mail" required />
@@ -153,6 +171,7 @@
         <div>
           <input type="submit" value="Subscribe" />
         </div>
+      </div>
       </div>
     </footer>
   </body>

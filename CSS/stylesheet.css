@@ -13,7 +13,15 @@ html {
     padding: 0;
     box-sizing: border-box;
     
-   
+}
+.li-text {
+    font-family: varela;
+    font-size: 16px;
+}
+
+p {
+    font-family: varela;
+    font-size: 16px;
 }
 
 nav,
@@ -166,8 +174,8 @@ h3 {
 .explore {
     
     position: relative;
-    margin: 40px;
-    padding: 50px;
+    margin: 30px;
+    padding: 10px;
     border-radius: 15px;
     background-color: #E0E0E0;
     border: 2px solid var(--blue);
@@ -180,7 +188,8 @@ h3 {
 .visitation {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    gap: 20px;
+    
     
 }
 
@@ -227,7 +236,7 @@ footer {
 a, a:visited, a:hover, a:active {
     color: inherit;
   }
-  
+
 a {
     cursor: pointer;
     text-decoration: none;
@@ -431,6 +440,8 @@ textarea {
         display: flex;
         width: 250px;
         justify-content: space-between;
+        font-family: varela;
+        font-size: 16px;
         
     }
 
@@ -496,9 +507,7 @@ textarea {
         color: #fff;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 18px;
-        
-
-    }
+            }
 
     h4 {
         color: #fff;
@@ -568,4 +577,30 @@ textarea {
     display: none;
     visibility: hidden;
   }      
+
+  .visitation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+
+.footer-contact {
+        
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+
+        footer {
+            height: 500px;
+        }
+
      }

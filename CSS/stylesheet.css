@@ -569,6 +569,18 @@ textarea {
           
         }
 
+        .index-button {
+            border-radius: 5px;
+            width: 30%;
+            align-items: center;
+            justify-content: center;
+            a {
+                font-size: 17px;
+            }
+                
+            }
+        
+
         .footer-blocks {
     display: flex;
     flex-direction: column;

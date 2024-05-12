@@ -49,6 +49,7 @@ header {
 nav a {
     display: block;
     align-items: center;
+    color: #000;
    
 }
 
@@ -222,10 +223,15 @@ footer {
 
 }
 
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+  
 a {
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    
     font-size: 18px;
     font-weight: 600;
     
@@ -466,6 +472,11 @@ textarea {
         text-decoration: none;
     }
 
+    footer a {
+        color: #fff;
+        font-weight: 100;
+    }
+
     .footer-image {
         display: flex;
         flex-direction: column;
@@ -548,6 +559,13 @@ textarea {
             align-items: center;
           
         }
-
-        
+.footer-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .hideaway {
+    display: none;
+    visibility: hidden;
+  }      
      }

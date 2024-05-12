@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.break {
+    padding-bottom: 13px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -229,6 +233,7 @@ footer {
     height: 350px;
     width: 100%;
     
+    
 
 }
 
@@ -331,6 +336,16 @@ a {
     border-radius: 13px 0px 0px 13px;
 }
 
+.evo-bigmammoth {
+
+    height: 346px;
+    width: 40%;
+    border-radius: 13px 0px 0px 13px;
+    
+
+}
+
+
 .evo-wrapper {
     display: flex;
     flex-direction: column;
@@ -350,7 +365,7 @@ a {
         margin-bottom: 60px;
     }
 
-.contact-container {
+.contact-container, .contact-container-form  {
     display: flex;
     height: 450px;
     justify-content: space-between;
@@ -470,6 +485,8 @@ textarea {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        height: 100%;
+        
         
         
         
@@ -603,6 +620,11 @@ textarea {
     
 }
 
+.para-wrapper {
+    height: fit-content;
+
+}
+
 .footer-contact {
         
     color: #fff;
@@ -619,3 +641,110 @@ textarea {
         }
 
      }
+
+     @media (max-width: 650px) {
+        .cosmo-section {
+            justify-content: flex-start;
+            height: 420px;
+
+        }
+
+        .evo-container {
+            
+
+        flex-direction: column;
+        height: 570px;
+        justify-content: space-evenly;
+        width: 80%;
+        border-radius: 15px;
+        align-items: center;
+        margin-bottom: 60px;
+        overflow: hidden;
+        
+            
+        }
+
+        .evo-biology {
+            height: 670px;
+        }
+
+        .evo-direction {
+            flex-direction: column-reverse;
+        }
+
+        
+
+        
+
+        .evo-picturer {
+            height: auto ;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: -1px 0px 3px 0px #292929;
+        }
+
+        .evo-picturel {
+            
+            margin-top: 5px;
+            border-radius: 10px
+        }
+
+        .evo-bigmammoth {
+
+            height: auto;
+            width: 80%;
+            border-radius: 10px;
+          
+        }
+
+        .evo-wrapper {
+            
+            height: fit-content;
+           
+            }
+        
+    .explore-kids-mobile {
+    height: 800px;
+}
+
+
+.contribute-container { 
+    height: fit-content;
+    padding: 10px 0 10px 0;
+    
+}
+        
+     }
+
+     @media (max-width: 1200px) {
+
+
+        .contact-picture {
+            display: none;
+        }
+        
+        .contact-map-hours {
+            flex-direction: column;
+            justify-content: space-between;
+            height: 690px;
+            align-items: center;
+            
+           
+        }
+
+        .contact-container {
+            justify-content: space-between;
+            height: 900px;
+            padding: 10px 0 10px 0;
+
+        }
+
+        address {
+
+            text-align: center;
+        }
+
+        
+       
+     }
+
